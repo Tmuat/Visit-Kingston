@@ -62,6 +62,12 @@ I picked the colour scheme to compliment the coat of arms and provide a simple a
 
 The hex codes for the two main colours are #FFFFFF and #03487E.
 
+#### Fonts
+
+The main font used on the site is Noto Serif. It was chosen after experimenting with a number of fonts on [google fonts](fonts.google.com); it provided a visually pleasing font which stood out against both the dark blue and white backgrounds.
+
+---
+
 ### Wireframes
 
 The wireframes for phone, tablet and desktop can be found by clicking [here](https://github.com/Tmuat/milestone-project-2/tree/master/assets/wireframes).
