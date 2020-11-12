@@ -50,6 +50,18 @@ As briefly stated in the description; the purpose of this site is to provide Kin
 
 ---
 
+### Design
+
+---
+
+#### Colour Scheme
+
+The two main colours across the site are white and dark blue. The specific dark blue was chosen to match the dark blue within the Royal Borough of Kingston coat of arms. The specific coat of arms for Kingston can be found [here](https://en.wikipedia.org/wiki/Kingston_upon_Thames_London_Borough_Council#/media/File:Kingston_upon_Thames.svg).
+
+I picked the colour scheme to compliment the coat of arms and provide a simple and easy on the eye UX whilst also allowing me to differentiate pages with either a white or dark blue background.
+
+The hex codes for the two main colours are #FFFFFF and #03487E.
+
 ### Wireframes
 
 The wireframes for phone, tablet and desktop can be found by clicking [here](https://github.com/Tmuat/milestone-project-2/tree/master/assets/wireframes).
