@@ -24,14 +24,31 @@ To build the site I have put into practice the knowledge and skills acquired fro
 ---
 
 ## UX
----
-
 
 ### Purpose
 
-As briefly stated in the description; the purpose of this site was to provide Kingston Upon Thames, Surrey with a website for individuals looking to visit the town to find key information on Food & Drink, Places To Stay & Attractions. Each area included a number of suggestions with links to external sites should the site visitor require more information.
+---
+
+As briefly stated in the description; the purpose of this site is to provide Kingston Upon Thames, Surrey with a website for individuals looking to visit the town; with key information on Food & Drink, Places To Stay & Attractions. Each area included a number of suggestions with links to external sites should the site visitor require more information. 
+
+---
 
 ### User Stories
+
+---
+
+#### User:
+
+- As a user of this website, first and foremost I would like to be presented with a well designed site that will allow me to navigate the site in an easy manor.
+- As a user of this website I would like to be able to find information of places to eat and/or drink in Kingston.
+- As a user of this website I would like to be able to find information of places I can stay overnight in and around Kingston.
+- As a user of this website I would like to be able to find information about different attractions in and around Kingston.
+- As a user of this website I would like to be able to access more information about different venues/attractions (i.e. Links to external websites).
+- As a user of this website I woild like to be able to find and view locations on a map to allow me to plan my time in Kingston.
+- As a user of this website I would like to be able to contact the makers of the website in case of any questions or suggestions.
+- As a user of this website I would like to be able to access the social media links of the website.
+
+---
 
 ### Wireframes
 
