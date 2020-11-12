@@ -1,9 +1,11 @@
 # Milestone Project 2 - Visit Kingston
 
 
-View live project here.
+View live project [here]().
 
+---
 ## Description
+---
 
 This is a fictitious site created as part of a full stack web development course with [code institue](codeinstitute.net).
 
@@ -14,13 +16,18 @@ To build the site I have put into practice the knowledge and skills acquired fro
 ---
 
 ## Contents
+---
 
 - [UX](#ux)
     - [Purpose](#purpose)
     - [User Stories](#user-stories)
     - [Wireframes](#wireframes)
 
+---
+
 ## UX
+---
+
 
 ### Purpose
 
@@ -31,6 +38,8 @@ As briefly stated in the description; the purpose of this site was to provide Ki
 ### Wireframes
 
 The wireframes for phone, tablet and desktop can be found by clicking [here]().
+
+[Return to Contents](#contents)
 
 ---
 
