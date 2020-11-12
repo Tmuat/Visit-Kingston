@@ -5,7 +5,6 @@ View live project [here]().
 
 ---
 ## Description
----
 
 This is a fictitious site created as part of a full stack web development course with [code institue](codeinstitute.net).
 
@@ -16,7 +15,6 @@ To build the site I have put into practice the knowledge and skills acquired fro
 ---
 
 ## Contents
----
 
 - [UX](#ux)
     - [Purpose](#purpose)
