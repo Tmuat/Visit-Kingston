@@ -1,14 +1,38 @@
 # Milestone Project 2 - Visit Kingston
 
+
 View live project here.
+
+## Description
+
+This is a fictitious site created as part of a full stack web development course with [code institue](codeinstitute.net).
+
+This site was designed, created and built by myself to showcase taking a project from inception to a functioning website. The website was built and designed with a mobile-first view point, with the aim of creating a well designed, easy to navigate website that is repsonive to all devices. The idea behind the site was to create an interactive and enticing page to provide information for those wanting to visit the Royal Borough of Kingston Upon Thames in South London. The site currently features 3 main sections; Food & Drink, Places To Stay and Attractions.  
+
+To build the site I have put into practice the knowledge and skills acquired from the first five modules of the full stack course; namely HTML Fundamentals, CSS Fundamentals, User Centric Frontend Development, JavaScript Fundamentals and Interactive Frontend Development.
+
+---
+
+## Contents
+
+- [UX](#ux)
+    - [Purpose](#purpose)
+    - [User Stories](#user-stories)
+    - [Wireframes](#wireframes)
 
 ## UX
 
-
-
 ### Purpose
 
+As briefly stated in the description; the purpose of this site was to provide Kingston Upon Thames, Surrey with a website for individuals looking to visit the town to find key information on Food & Drink, Places To Stay & Attractions. Each area included a number of suggestions with links to external sites should the site visitor require more information.
+
 ### User Stories
+
+### Wireframes
+
+The wireframes for phone, tablet and desktop can be found by clicking [here]().
+
+---
 
 ## Features
 
