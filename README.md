@@ -62,22 +62,53 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 ### Existing Features
 
+---
+
+
+
+---
+
 ### Features Left to Implement
+
+---
+
+
+[Return to Contents](#contents)
+---
 
 ## Technologies Used
 
 
+[Return to Contents](#contents)
+
 ## Testing
 
+
+[Return to Contents](#contents)
+
 ## Deployment
+
+
+[Return to Contents](#contents)
 
 ## Credits
 
 ### Content
 
+---
+
+
+
+---
+
 ### Media
+
+---
+
 - #### Favicon
     - The favicon was produced using a [favicon generator](favicon.io/favicon-generator/), it incorporates the main colour of the site with the sites initials.
+
+---
 
 - #### Images
   The images used on this site came from a vaiety of sources.
@@ -90,8 +121,20 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
     - The image used as a divider for attractions was taken from [Hampton Court Ice Rink](https://hamptoncourtpalaceicerink.co.uk/).
     - Other images were sourced from [google images](https://www.google.com/).
 
+---
+
 ### Acknowledgements
+
+---
+
+
+
+---
 
 ### Disclaimer
 
-This project was created for educational use only.  
+---
+
+This project was created for educational use only.
+
+[Return to Contents](#contents)
