@@ -4,6 +4,8 @@ View live project here.
 
 ## UX
 
+
+
 ### Purpose
 
 ### User Stories
@@ -26,6 +28,8 @@ View live project here.
 ### Content
 
 ### Media
+- #### Favicon
+    - The favicon was produced using a [favicon generator](favicon.io/favicon-generator/), it incorporates the main colour of the site with the sites initials.
 
 - #### Images
   The images used on this site came from a vaiety of sources.
