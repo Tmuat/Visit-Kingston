@@ -1,0 +1,22 @@
+/* ---------------------------------------------- Font Import start */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ---------------------------------------------- Font Import end */
+
+/* ---------------------------------------------- Global Styling start */
+
+body {
+    font-family: 'Noto-Serif', sans-serif;
+    background-color: #dfe8f1;
+}
+
+/* ---------------------------------------------- Global Styling end */
+
+/* ---------------------------------------------- Colur Styling start */
+
+.kingston-blue {
+    background-color: #03487E;
+}
+
+/* ---------------------------------------------- Colur Styling end */
