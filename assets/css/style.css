@@ -6,7 +6,9 @@
 
 /* ---------------------------------------------- Global Styling start */
 
-body {
+body,
+html {
+    height: 100%;
     font-family: 'Noto-Serif', sans-serif;
     background-color: #dfe8f1;
 }
@@ -114,5 +116,19 @@ body {
 /* Hover Wobble Skew Code end */
 
 /* ----------------------- Navbar Styling end */
+
+/* ----------------------- Hero Image Styling start */
+
+.hero-image {
+    background-image: url("/assets/media/images/landing_image_1.jpg");
+    height: calc(100vh - 76px);
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* ----------------------- Hero Image Styling end */
 
 /* ---------------------------------------------- Home Page Styling end */
