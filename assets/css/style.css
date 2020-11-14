@@ -129,6 +129,22 @@ html {
     position: relative;
 }
 
+.hero-image-text-row {
+    height: calc(100vh - 76px);
+}
+
+.hero-image-text-box {
+    height: auto;
+    background: rgba(3, 72, 126, 0.7);
+}
+
+.hero-image-text-box h1 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ----------------------- Hero Image Styling end */
 
 /* ---------------------------------------------- Home Page Styling end */
