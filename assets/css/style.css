@@ -119,14 +119,21 @@ html {
 
 /* ----------------------- Hero Image Styling start */
 
-.hero-image {
-    background-image: url("/assets/media/images/landing_image_1.jpg");
+.all-hero-images {
     height: calc(100vh - 76px);
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.hero-image-1 {
+    background-image: url("/assets/media/images/landing_image_1.jpg");
+}
+
+.hero-image-2 {
+    background-image: url("/assets/media/images/landing_image_2.jpg");
 }
 
 .hero-image-text-row {
@@ -143,8 +150,20 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-size: 2.5rem;
 }
 
 /* ----------------------- Hero Image Styling end */
 
 /* ---------------------------------------------- Home Page Styling end */
+
+
+
+/* ---------------------------------------------- Media Queries */
+
+@media screen and (max-device-width : 400px) {
+    .hero-image-text-box h1 {
+        font-size:1.5rem;
+    }
+}
