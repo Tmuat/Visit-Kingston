@@ -323,6 +323,14 @@ div#map {
 
 /* ---------------------------------------------- Maps Page Styling end */
 
+/* ---------------------------------------------- Footer Styling start */
+
+.footer-active {
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------- Footer Styling end */
+
 /* ---------------------------------------------- Media Queries */
 
 @media screen and (max-device-width : 400px) {
