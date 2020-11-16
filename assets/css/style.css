@@ -316,6 +316,10 @@ html {
     background-color: #03487E;
 }
 
+div#map {
+    min-height: 500px;
+    min-width: 500px;
+}
 /* ----------------------- Maps Filter Button end */
 
 /* ---------------------------------------------- Maps Page Styling end */
