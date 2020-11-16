@@ -119,6 +119,7 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 - Code for the navbar on the site came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/).
 - Code for the Hover Wobble Skew came from [Hover.css](https://ianlunn.github.io/Hover/).
 - Code for the hero image transitions came from [CodePen - Nikolay Talanov](https://codepen.io/suez/pen/OjGQza).
+- Code for the dropdown menu on the maps page came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/dropdowns/).
 
 - Code for the Facebook social media icon came from [Font Awesome](https://fontawesome.com/icons/facebook-square?style=brands).
 - Code for the Instagram social media icon came from [Font Awesome](https://fontawesome.com/icons/instagram-square?style=brands).

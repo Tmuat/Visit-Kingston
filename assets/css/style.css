@@ -9,8 +9,8 @@
 body,
 html {
     height: 100%;
-    font-family: 'Noto-Serif', sans-serif;
-    background-color: #dfe8f1;
+    font-family: "Noto Serif", sans-serif;
+    background-color: #ffffff;
 }
 
 /* ---------------------------------------------- Global Styling end */
@@ -19,6 +19,10 @@ html {
 
 .kingston-blue {
     background-color: #03487E;
+}
+
+.kingston-blue-text {
+    color: #03487E;
 }
 
 /* ---------------------------------------------- Colur Styling end */
@@ -286,7 +290,35 @@ html {
 
 /* ---------------------------------------------- Home Page Styling end */
 
+/* ---------------------------------------------- Maps Page Styling start */
 
+/* ----------------------- Maps Filter Button start */
+
+.filter-button {
+    width: 250px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 3px solid #03487E;
+    box-sizing: border-box;
+    border-radius: 45px;
+}
+
+.filter-button:hover {
+    color: #FFFFFF;
+    background: #03487E;
+    border: 3px solid #03487E;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #03487E;
+}
+
+/* ----------------------- Maps Filter Button end */
+
+/* ---------------------------------------------- Maps Page Styling end */
 
 /* ---------------------------------------------- Media Queries */
 
