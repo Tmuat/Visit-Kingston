@@ -372,6 +372,250 @@ let foodAndDrinkLocations = [{
     },
 ];
 
+let placesToStayLocations = [{
+        // Hilton
+        coords: {
+            lat: 51.413455,
+            lng: -0.305267
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">DoubleTree by Hilton</h4>
+        <h6 class="info-card-address text-center">1 Skerne Rd, Kingston Upon Thames, KT2 5FJ</h6>
+        <div>
+            <p class="info-card-desc text-center">DoubleTree by Hilton Kingston upon Thames offers comfortable rooms, onsite restaurant and a convenient location near Twickenham and the River Thames.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="https://www.hilton.com/en/hotels/lonktdi-doubletree-london-kingston-upon-thames/" target="blank">www.hilton.com</a></p>
+        </div>
+        `
+    },
+    {
+        // White Hart
+        coords: {
+            lat: 51.4116592,
+            lng: -0.311111
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">The White Hart Hotel</h4>
+        <h6 class="info-card-address text-center">1 High St, Hampton Wick, Kingston Upon Thames, KT1 4DA</h6>
+        <div>
+            <p class="info-card-desc text-center">The White Hart Hotel, superbly located in Hampton Wick with characterful bedrooms, delicious fresh food, and a wide range of drinks.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="https://www.whiteharthoteluk.co.uk/" target="blank">www.whiteharthoteluk.co.uk</a></p>
+        </div>
+        `
+    },
+    {
+        // Premier Inn
+        coords: {
+            lat: 51.409499,
+            lng: -0.300903
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">Premier Inn</h4>
+        <h6 class="info-card-address text-center">Combined House, 15 Wheatfield Way, Kingston Upon Thames, KT1 2PD</h6>
+        <div>
+            <p class="info-card-desc text-center">Warmly decorated, unfussy rooms offer free Wi-Fi (data limit), flat-screen TVs and desks, as well as tea and coffeemaking facilities.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-kingston-upon-thames.html?cid=GLBC_KINUPT" target="blank">www.premierinn.com</a></p>
+        </div>
+        `
+    },
+    {
+        // The Queen's Head
+        coords: {
+            lat: 51.418521,
+            lng: -0.301608
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">The Queen's Head</h4>
+        <h6 class="info-card-address text-center">144 Richmond Rd, Kingston Upon Thames, KT2 5HA</h6>
+        <div>
+            <p class="info-card-desc text-center">Our Indulgence rooms provide all the space and facilities you need to enjoy a truly special break. Featuring a luxurious king-size bed, plus a well-appointed ensuite bathroom, flatscreen TV and more, these rooms promise a memorable stay in Kingston.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="https://www.queensheadkingston.co.uk" target="blank">www.queensheadkingston.co.uk</a></p>
+        </div>
+        `
+    },
+    {
+        // The Foresters Arms
+        coords: {
+            lat: 51.412982,
+            lng: -0.311270
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">The Foresters Arms</h4>
+        <h6 class="info-card-address text-center">45 High St, Hampton Wick, Kingston Upon Thames, KT1 4DG</h6>
+        <div>
+            <p class="info-card-desc text-center">With Kingston-upon-Thames a short stroll away and Central London only 30-minutes by train, our location is perfect for both leisure and business guests. Situated in peaceful Hampton Wick adjacent to Bushy Park, it is a perfect place to unwind away from the hustle and bustle.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="https://www.the-foresters.com/" target="blank">www.the-foresters.com</a></p>
+        </div>
+        `
+    },
+    {
+        // Travel Lodge
+        coords: {
+            lat: 51.410385,
+            lng: -0.300741
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">Travelodge</h4>
+        <h6 class="info-card-address text-center">International House, Wheatfield Way, Kingston Upon Thames, KT1 2PD</h6>
+        <div>
+            <p class="info-card-desc text-center">All standard double rooms feature a comfy king size bed with four plump pillows and a cosy duvet. Guests can enjoy a wide variety of food and drink choices within easy walking distance from this hotel.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="https://www.travelodge.co.uk/hotels/397/Kingston-Upon-Thames-Central-hotel" target="blank">www.travelodge.co.uk</a></p>
+        </div>
+        `
+    },
+];
+
+let attractionsLocations = [{
+        // Out of Order Postboxes
+        coords: {
+            lat: 51.410817,
+            lng: -0.300470
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">Out of Order Postboxes</h4>
+        <h6 class="info-card-address text-center">Old London Road, Kingston Upon Thames, KT2 6QF</h6>
+        <div>
+            <p class="info-card-desc text-center">Celebrating one of the icons of the 20th century, Gilbert Scott's superb red telephone box, David Mach did this street sculpture when he was working at Kingston Uni.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="http://www.davidmach.com/" target="blank">www.davidmach.com</a></p>
+        </div>
+        `
+    },
+    {
+        // Bentalls Centre
+        coords: {
+            lat: 51.410969,
+            lng: -0.304769
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">The Bentalls Centre</h4>
+        <h6 class="info-card-address text-center">Wood St, Kingston Upon Thames, KT1 1TP</h6>
+        <div>
+            <p class="info-card-desc text-center">Longtime, spacious mall featuring a variety of international retail stores, restaurants & services.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="https://www.bentallcentre.co.uk/" target="blank">www.bentallcentre.co.uk</a></p>
+        </div>
+        `
+    },
+    {
+        // Rose Theatre
+        coords: {
+            lat: 51.408561,
+            lng: -0.307215
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">Rose Theatre</h4>
+        <h6 class="info-card-address text-center">24-26 High St, Kingston Upon Thames, KT1 1HL</h6>
+        <div>
+            <p class="info-card-desc text-center">State-of-the-art theatre inspired by Elizabethan design, putting on varied productions.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="http://www.rosetheatrekingston.org/" target="blank">www.rosetheatrekingston.orgm</a></p>
+        </div>
+        `
+    },
+    {
+        // The Queen's Head
+        coords: {
+            lat: 51.418521,
+            lng: -0.301608
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">The Queen's Head</h4>
+        <h6 class="info-card-address text-center">144 Richmond Rd, Kingston Upon Thames, KT2 5HA</h6>
+        <div>
+            <p class="info-card-desc text-center">Our Indulgence rooms provide all the space and facilities you need to enjoy a truly special break. Featuring a luxurious king-size bed, plus a well-appointed ensuite bathroom, flatscreen TV and more, these rooms promise a memorable stay in Kingston.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="https://www.queensheadkingston.co.uk" target="blank">www.queensheadkingston.co.uk</a></p>
+        </div>
+        `
+    },
+    {
+        // Odeon
+        coords: {
+            lat: 51.412261,
+            lng: -0.299226
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">Odeon Cinema</h4>
+        <h6 class="info-card-address text-center">The Rotunda, Clarence St, Kingston Upon Thames, KT1 1QP</h6>
+        <div>
+            <p class="info-card-desc text-center">State-of-the-art chain cinema for blockbusters in 2-D or 3-D format, plus family and student deals.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="https://www.odeon.co.uk/cinemas/kingston/?" target="blank">www.odeon.co.uk</a></p>
+        </div>
+        `
+    },
+    {
+        // Banquet Records
+        coords: {
+            lat: 51.409176,
+            lng: -0.303346
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">Banquet Records</h4>
+        <h6 class="info-card-address text-center">52 Eden St, Kingston Upon Thames, KT1 1EE</h6>
+        <div>
+            <p class="info-card-desc text-center">Record shop with own label and club nights, specialising in indie, punk and dubstep on vinyl and CD.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="http://www.banquetrecords.com/" target="blank">www.banquetrecords.com</a></p>
+        </div>
+        `
+    },
+    {
+        // Canbury Gardens
+        coords: {
+            lat: 51.416564,
+            lng: -0.305752
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">Canbury Garden</h4>
+        <h6 class="info-card-address text-center">19 Samuel Gray Gardens, Kingston Upon Thames, KT2 5UY</h6>
+        <div>
+            <p class="info-card-desc text-center">Record shop with own label and club nights, specialising in indie, punk and dubstep on vinyl and CD.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="#" target="blank">Na</a></p>
+        </div>
+        `
+    },
+    {
+        // Bushy Park
+        coords: {
+            lat: 51.411618,
+            lng: -0.312907
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">Bushy Park</h4>
+        <h6 class="info-card-address text-center">Hampton Ct Rd, Hampton, TW12 2EJ</h6>
+        <div>
+            <p class="info-card-desc text-center">Huge area of woods and grasslands, home to red and fallow deer, with water garden and fountain.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="https://www.royalparks.org.uk/parks/bushy-park" target="blank">www.royalparks.org.uk</a></p>
+        </div>
+        `
+    },
+    {
+        // Coronation Stone
+        coords: {
+            lat: 51.408565,
+            lng: -0.306553
+        },
+        infoContent: `
+        <h4 class="info-card-header text-center">Coronation Stone</h4>
+        <h6 class="info-card-address text-center">8-10 High St, Kingston Upon Thames, KT1 1EY</h6>
+        <div>
+            <p class="info-card-desc text-center">Ancient stone where, according to tradition, 7 Anglo-Saxon kings were coronated in the 10th century.n.</p>
+            <p class="info-card-website text-center mb-0">Website:</p>
+            <p class="info-card-website text-center"><a href="#" target="blank">NA</a></p>
+        </div>
+        `
+    },
+];
+
 // Create the map and markers
 
 function initMap(filterMarkers) {
@@ -416,4 +660,12 @@ function initMap(filterMarkers) {
 
 document.getElementById("food_and_drink").onclick = () => {
     initMap(foodAndDrinkLocations);
+};
+
+document.getElementById("places_to_stay").onclick = () => {
+    initMap(placesToStayLocations);
+};
+
+document.getElementById("attractions").onclick = () => {
+    initMap(attractionsLocations);
 };
