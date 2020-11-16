@@ -1,4 +1,4 @@
-// Slider Code taken from https://www.codeseek.co/suez/cities-slider-react-OjGQza
+// Slider Code taken from https://codepen.io/suez/pen/OjGQza
 
 let _createClass = (function () {
   function defineProperties(target, props) {
@@ -84,7 +84,7 @@ let HeroSlider = (function (_React$Component) {
     _this.IMAGE_PARTS = 4;
 
     _this.changeTO = null;
-    _this.AUTOCHANGE_TIME = 4000;
+    _this.AUTOCHANGE_TIME = 5000;
 
     _this.state = { activeSlide: -1, prevSlide: -1, sliderReady: false };
     return _this;
@@ -158,35 +158,6 @@ let HeroSlider = (function (_React$Component) {
                   }),
                   key: slide.image,
                 },
-                // React.createElement(
-                //   "div",
-                //   { className: "slider__slide-content" },
-                //   React.createElement(
-                //     "h2",
-                //     { className: "section-heading slider__slide-heading" },
-                //     slide.image.split("").map(function (l, i) {
-                //       return React.createElement(
-                //         "span",
-                //         { className: null, key: i },
-                //         l
-                //       );
-                //     })
-                //   ),
-                //   React.createElement(
-                //     "div",
-                //     {
-                //       className: "slider__slide-readmore",
-                //     },
-                //     React.createElement(
-                //       "a",
-                //       {
-                //         className: "btn",
-                //         href: slide.link,
-                //       },
-                //       "Find out more "
-                //     )
-                //   )
-                // ),
                 React.createElement(
                   "div",
                   { className: "slider__slide-parts" },
@@ -218,12 +189,22 @@ let HeroSlider = (function (_React$Component) {
 
 let slides = [
   {
-    image: "Riverside",
     img: "/assets/media/images/landing_image_1.jpg",
   },
   {
-    image: "Christmas Market",
     img: "/assets/media/images/landing_image_2.jpg",
+  },
+  {
+    img: "/assets/media/images/landing_image_3.jpg",
+  },
+  {
+    img: "/assets/media/images/landing_image_4.jpg",
+  },
+  {
+    img: "/assets/media/images/landing_image_5.jpg",
+  },
+  {
+    img: "/assets/media/images/landing_image_6.jpg",
   },
 ];
 

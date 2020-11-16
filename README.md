@@ -118,6 +118,7 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 - Code for the navbar on the site came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/).
 - Code for the Hover Wobble Skew came from [Hover.css](https://ianlunn.github.io/Hover/).
+- Code for the hero image transitions came from [CodePen - Nikolay Talanov](https://codepen.io/suez/pen/OjGQza).
 
 - Code for the Facebook social media icon came from [Font Awesome](https://fontawesome.com/icons/facebook-square?style=brands).
 - Code for the Instagram social media icon came from [Font Awesome](https://fontawesome.com/icons/instagram-square?style=brands).
@@ -138,8 +139,12 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 - #### Images
   The images used on this site came from a vaiety of sources.
   
-    - The home screen landing image was taken from [google images](https://www.google.com/). It showcases the Kingston Upon Thames riverside.
+    - The home screen first landing image was taken from [google images](https://www.google.com/). It showcases the Kingston Upon Thames riverside.
     - The christmas market image was taken from ['In Kingston'](https://www.inkingston.co.uk/).
+    - The shopping centre image was taken from [The Surrey Comet](https://www.surreycomet.co.uk/news/10978786.apple-store-robbed-and-staff-member-assaulted-in-bentall-centre-kingston/).
+    - The image of the Rose Theatre (Stormzy performing) also came from [The Surrey Comet](https://www.surreycomet.co.uk/news/18185060.stormzy-lights-kingstons-rose-theatre/).
+    - The christmas lights image was also taken from [The Surrey Comet](https://www.surreycomet.co.uk/news/11592062.get-ready-for-christmas-lights-switch-on-in-kingston/).
+    - The Rotunda image was taken from [Rotunda Kingston](https://www.rotundakingston.co.uk/leasing/).
     - The hotel image was taken from [White Hart Hotel](https://www.whiteharthoteluk.co.uk/).
     - The park image was taken from [Royal Parks](https://www.royalparks.org.uk/); specifically of Bushy Park.
     - The images used as a dividers came from [unsplash](https://unsplash.com/); with the exception of the Hampton Court Ice Rink and the christmas market.
