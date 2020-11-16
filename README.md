@@ -6,7 +6,7 @@ View live project [here]().
 ---
 ## Description
 
-This is a fictitious site created as part of a full stack web development course with [code institue](codeinstitute.net).
+This is a fictitious site created as part of a full stack web development course with [code institute](codeinstitute.net).
 
 This site was designed, created and built by myself to showcase taking a project from inception to functioning website. The website was built and designed with a mobile-first view point, with the aim of creating a well designed, easy to navigate website that is repsonive to all devices. The idea behind the site was to create an interactive and enticing page to provide information for those wanting to visit the Royal Borough of Kingston Upon Thames in South London. The site currently features 3 pages; 'Home', 'About Kingston' and 'Contact Us'. The main information sections fall within the 'About Kingston' page, with 3 areas within; Food & Drink, Places To Stay and Attractions.  
 
@@ -120,6 +120,9 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 - Code for the Hover Wobble Skew came from [Hover.css](https://ianlunn.github.io/Hover/).
 - Code for the hero image transitions came from [CodePen - Nikolay Talanov](https://codepen.io/suez/pen/OjGQza).
 - Code for the dropdown menu on the maps page came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/dropdowns/).
+- Code for the Google Maps API comes from [Google Developers](https://developers.google.com/maps/documentation/) & [Code Institute](https://codeinstitute.net/).
+- Code for Google Maps marker drops came from [Google Developers](https://developers.google.com/maps/documentation/javascript/examples/marker-animations-iteration).
+- Code for Google Maps info windows came from [Google Developers](https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple).
 
 - Code for the Facebook social media icon came from [Font Awesome](https://fontawesome.com/icons/facebook-square?style=brands).
 - Code for the Instagram social media icon came from [Font Awesome](https://fontawesome.com/icons/instagram-square?style=brands).
