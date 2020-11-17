@@ -124,6 +124,8 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 - Code for Google Maps marker drops came from [Google Developers](https://developers.google.com/maps/documentation/javascript/examples/marker-animations-iteration).
 - Code for Google Maps info windows came from [Google Developers](https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple).
 - Code for the back to top button came from [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top).
+- Code for using EmailJS came from [EmailJS](https://www.emailjs.com/docs/sdk/installation/) with the tutorial from [Code Institute](https://codeinstitute.net/).
+- Code for the email alerts came from [Bootstrap](https://getbootstrap.com/docs/4.0/components/alerts/#dismissing).
 
 - Code for the Facebook social media icon came from [Font Awesome](https://fontawesome.com/icons/facebook-square?style=brands).
 - Code for the Instagram social media icon came from [Font Awesome](https://fontawesome.com/icons/instagram-square?style=brands).
@@ -155,6 +157,7 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
     - The images used as a dividers came from [unsplash](https://unsplash.com/); with the exception of the Hampton Court Ice Rink and the christmas market.
     - The image used as a divider for attractions was taken from [Hampton Court Ice Rink](https://hamptoncourtpalaceicerink.co.uk/).
     - Other images were sourced from [google images](https://www.google.com/).
+    - The loading gif was created at [loading.io](https://loading.io/).
 
 ---
 

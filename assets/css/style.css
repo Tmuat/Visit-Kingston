@@ -366,12 +366,18 @@ div#map {
 
 .submit-button {
     color: #fff;
+    min-width: 100px;
 }
 
 .submit-button:hover {
     border: 2px solid rgba(3, 72, 126, 1);
     color: rgba(3, 72, 126, 1);
     background-color: #fff;
+}
+
+.loader {
+    max-height: 30px;
+    max-width: 30px;
 }
 
 /* ---------------------------------------------- Contact Page Styling end */
