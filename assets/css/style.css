@@ -129,7 +129,9 @@ html {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.hvr-wobble-skew:hover, .hvr-wobble-skew:focus, .hvr-wobble-skew:active {
+.hvr-wobble-skew:hover,
+.hvr-wobble-skew:focus,
+.hvr-wobble-skew:active {
   -webkit-animation-name: hvr-wobble-skew;
   animation-name: hvr-wobble-skew;
   -webkit-animation-duration: 1s;
@@ -145,6 +147,15 @@ html {
 /* ----------------------- Navbar Styling end */
 
 /* ----------------------- Hero Image Styling start */
+
+.hero-landing-home-image {
+    height: calc(100vh - 76px);
+    width: 100vw !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .hero-image-text-row {
     height: calc(100vh - 76px);

@@ -118,7 +118,7 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 - Code for the navbar on the site came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/).
 - Code for the Hover Wobble Skew came from [Hover.css](https://ianlunn.github.io/Hover/).
-- Code for the hero image transitions came from [CodePen - Nikolay Talanov](https://codepen.io/suez/pen/OjGQza).
+- Code for the Carousel came from [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/).
 - Code for the dropdown menu on the maps page came from [Bootstrap](https://getbootstrap.com/docs/4.5/components/dropdowns/).
 - Code for the Google Maps API comes from [Google Developers](https://developers.google.com/maps/documentation/) & [Code Institute](https://codeinstitute.net/).
 - Code for Google Maps marker drops came from [Google Developers](https://developers.google.com/maps/documentation/javascript/examples/marker-animations-iteration).
