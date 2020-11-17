@@ -344,6 +344,54 @@ div#map {
 
 /* ----------------------- View On Map Button end */
 
+/* Card carousel Code taken from https://www.codeply.com/go/EIOtI7nkP8/bootstrap-carousel-with-multiple-cards start */
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+/* The below are my own styling for the cards */
+
+.carousel-card {
+    max-width: 250px;
+}
+
+.card-image {
+    height: 140px;    
+}
+
+/* Card carousel Code end */
+
 /* ---------------------------------------------- About Kingston Page Styling end */
 
 /* ---------------------------------------------- Contact Page Styling start */

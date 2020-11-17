@@ -127,7 +127,7 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 - Code for the back to top button came from [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top).
 - Code for using EmailJS came from [EmailJS](https://www.emailjs.com/docs/sdk/installation/) with the tutorial from [Code Institute](https://codeinstitute.net/).
 - Code for the email alerts came from [Bootstrap](https://getbootstrap.com/docs/4.0/components/alerts/#dismissing).
-
+- Code for the card carousel came from [Codeply](https://www.codeply.com/go/EIOtI7nkP8/bootstrap-carousel-with-multiple-cards).
 - Code for the Facebook social media icon came from [Font Awesome](https://fontawesome.com/icons/facebook-square?style=brands).
 - Code for the Instagram social media icon came from [Font Awesome](https://fontawesome.com/icons/instagram-square?style=brands).
 - Code for the Youtube social media icon came from [Font Awesome](https://fontawesome.com/icons/youtube-square?style=brands).
