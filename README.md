@@ -1,5 +1,6 @@
 # Milestone Project 2 - Visit Kingston
 
+![Desktop Demo](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/images/ms2_mockup.gif "Desktop Demo")
 
 View live project [here](tmuat.github.io/milestone-project-2/).
 
@@ -138,8 +139,9 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 ---
 
-- #### Favicon
+- #### Misc
     - The favicon was produced using a [favicon generator](favicon.io/favicon-generator/), it incorporates the main colour of the site with the sites initials.
+    - The mockup at the start of the README.md was created using [multi-mockup](https://techsini.com/multi-mockup) - I then created the gif myself.
 
 ---
 
