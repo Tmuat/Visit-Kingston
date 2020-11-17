@@ -147,6 +147,7 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 - #### Content
     - The text for the About Kingston - Food & Drink section came from [inKingston](https://www.inkingston.co.uk/food-drink).
+    - The text for the About Kingston - Attractions section came from [inKingston](https://www.inkingston.co.uk/accommodation) but was slightly adapted.
 
 ---
 

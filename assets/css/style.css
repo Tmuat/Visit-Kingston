@@ -250,8 +250,7 @@ div#map {
     position: relative;
 }
 
-.food-drink-image {
-    background-image: url("../media/images/food_and_drink_1.jpg");
+.about-kingston-all-images {
     max-width: 100%;
     min-height: 450px;
     background-position: center;
@@ -259,6 +258,49 @@ div#map {
     background-size: cover;
     position: relative;
 }
+
+.food-drink-image {
+    background-image: url("../media/images/food_and_drink_1.jpg");
+}
+
+.food-drink-divider {
+    background-image: url("../media/images/food_divider.jpg");
+}
+
+.divider-row {
+    min-height: 450px;
+    position: absolute;
+    z-index: 10;
+}
+
+.places-to-stay-image {
+    background-image: url("../media/images/places_to_stay.jpg");
+}
+
+.places-to-stay-divider {
+    background-image: url("../media/images/hotel_divider.jpg");
+}
+
+.places-image-text-box {
+    height: auto;
+    min-width: 300px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.attractions-image-text-box {
+    height: auto;
+    min-width: 300px;
+    background: rgba(3, 72, 126, 0.7);
+}
+
+.attractions-image {
+    background-image: url("../media/images/bushy_park.jpg");
+}
+
+.attractions-divider {
+    background-image: url("../media/images/attractions_divider.jpg");
+}
+
 
 /* ---------------------------------------------- About Kingston Page Styling end */
 
