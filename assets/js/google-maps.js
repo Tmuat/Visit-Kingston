@@ -2,6 +2,11 @@
 
 // Set locations variables
 
+// Food and drink locations
+// First in comments is the name of the marker
+// Second is the latitudes and longitudes
+// Last is the info to be displayed on info cards if clicked
+
 let foodAndDrinkLocations = [{
         // The Ram Pub
         coords: {
@@ -372,6 +377,11 @@ let foodAndDrinkLocations = [{
     },
 ];
 
+// Places to stay locations
+// First in comments is the name of the marker
+// Second is the latitudes and longitudes
+// Last is the info to be displayed on info cards if clicked
+
 let placesToStayLocations = [{
         // Hilton
         coords: {
@@ -469,6 +479,11 @@ let placesToStayLocations = [{
         `
     },
 ];
+
+// Attraction locations
+// First in comments is the name of the marker
+// Second is the latitudes and longitudes
+// Last is the info to be displayed on info cards if clicked
 
 let attractionsLocations = [{
         // Out of Order Postboxes
@@ -618,6 +633,8 @@ let attractionsLocations = [{
 
 // Create the map and markers
 
+// Set dictionary of labels to be used
+let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 let marker = [];
 let map;
 
@@ -634,9 +651,6 @@ function initMap(filterMarkers) {
         center: defaultLatlng,
         mapTypeControl: false,
     });
-
-    // Set dictionary of labels to be used
-    let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     // Iterate through all markers selected and assign coordinates & label in marker, then set content for info window
     if (filterMarkers) {
@@ -662,18 +676,22 @@ function initMap(filterMarkers) {
 
 // Get the map filter clicked from index.html dropdown
 
+// Gets the food & drink list
 document.getElementById("food_and_drink").onclick = () => {
     initMap(foodAndDrinkLocations);
 };
 
+// Gets the places to stay list
 document.getElementById("places_to_stay").onclick = () => {
     initMap(placesToStayLocations);
 };
 
+// Gets the attractions list
 document.getElementById("attractions").onclick = () => {
     initMap(attractionsLocations);
 };
 
+// Puts the 3 above lists together and serves the array on page load
 $.when( $.ready ).then(function() {
     initMap([...attractionsLocations, ...placesToStayLocations, ...foodAndDrinkLocations]);
 });
