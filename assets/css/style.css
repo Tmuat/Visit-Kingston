@@ -311,10 +311,6 @@ html {
 
 /* ----------------------- Hero Image Styling end */
 
-/* ---------------------------------------------- Home Page Styling end */
-
-/* ---------------------------------------------- Maps Page Styling start */
-
 /* ----------------------- Maps Filter Button start */
 
 .filter-button {
@@ -344,7 +340,41 @@ div#map {
 }
 /* ----------------------- Maps Filter Button end */
 
-/* ---------------------------------------------- Maps Page Styling end */
+/* ---------------------------------------------- Home Page Styling end */
+
+/* ---------------------------------------------- Contact Page Styling start */
+
+.hero-landing {
+    background-image: url("/assets/media/images/contact_page.jpg");
+    height: calc(100vh - 76px);
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    width: 100vw;
+    height: calc(100vh - 76px);
+    background-color: rgba(0,0,0,0.5);
+}
+
+.card {
+    border: 3px solid rgba(3, 72, 126, 1);
+}
+
+.submit-button {
+    color: #fff;
+}
+
+.submit-button:hover {
+    border: 2px solid rgba(3, 72, 126, 1);
+    color: rgba(3, 72, 126, 1);
+    background-color: #fff;
+}
+
+/* ---------------------------------------------- Contact Page Styling end */
 
 /* ---------------------------------------------- Footer Styling start */
 
