@@ -1,4 +1,4 @@
-// Slider Code taken from https://codepen.io/suez/pen/OjGQza
+// Slider code taken from https://codepen.io/suez/pen/OjGQza
 
 let _createClass = (function () {
   function defineProperties(target, props) {

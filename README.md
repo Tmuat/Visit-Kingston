@@ -123,6 +123,7 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 - Code for the Google Maps API comes from [Google Developers](https://developers.google.com/maps/documentation/) & [Code Institute](https://codeinstitute.net/).
 - Code for Google Maps marker drops came from [Google Developers](https://developers.google.com/maps/documentation/javascript/examples/marker-animations-iteration).
 - Code for Google Maps info windows came from [Google Developers](https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple).
+- Code for the back to top button came from [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top).
 
 - Code for the Facebook social media icon came from [Font Awesome](https://fontawesome.com/icons/facebook-square?style=brands).
 - Code for the Instagram social media icon came from [Font Awesome](https://fontawesome.com/icons/instagram-square?style=brands).
