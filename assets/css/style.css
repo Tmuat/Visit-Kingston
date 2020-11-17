@@ -257,6 +257,8 @@ div#map {
     position: relative;
 }
 
+/* ----------------------- Divider Images start */
+
 .about-kingston-all-images {
     max-width: 100%;
     min-height: 450px;
@@ -308,6 +310,39 @@ div#map {
     background-image: url("../media/images/attractions_divider.jpg");
 }
 
+/* ----------------------- Divider Images end */
+
+/* ----------------------- View On Map Button start */
+
+.view-on-map-white {
+    color: #fff;
+    background: #03487E;
+    border: 3px solid #03487E;
+    box-sizing: border-box;
+    border-radius: 45px;
+}
+
+.view-on-map-blue {
+    color: #03487E;
+    background: #fff;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+    border-radius: 45px;
+}
+
+.view-on-map-white:hover {
+    background: #fff;
+    color: #03487E;
+    text-decoration: none;
+}
+
+.view-on-map-blue:hover {
+    color: #fff;
+    background: #03487E;
+    text-decoration: none;
+}
+
+/* ----------------------- View On Map Button end */
 
 /* ---------------------------------------------- About Kingston Page Styling end */
 
