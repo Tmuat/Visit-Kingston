@@ -335,17 +335,69 @@ html {
     background-color: #03487E;
 }
 
-div#map {
-    min-height: 500px;
-}
 /* ----------------------- Maps Filter Button end */
 
+/* ----------------------- Maps List & Google Map start */
+
+div#map {
+    height: 500px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    color: #FFFFFF;
+    background-color: #03487E;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    color: #03487E;
+    background-color: #FFFFFF;
+}
+
+.table-scroll {
+    overflow:scroll;
+    height: 500px;
+}
+
+.map-table tr td:nth-child(1) {
+  width: 10%;
+}
+
+.map-table tr td:nth-child(2) {
+  width: 90%;
+}
+
+/* ----------------------- Maps List & Google Map end */
+
 /* ---------------------------------------------- Home Page Styling end */
+
+/* ---------------------------------------------- About Kingston Page Styling start */
+
+.hero-landing-about-image {
+    background-image: url("./media/images/about_page.jpg");
+    height: calc(100vh - 76px);
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.food-drink-image {
+    background-image: url("./media/images/food_and_drink_2.jpg");
+    max-width: 100%;
+    min-height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* ---------------------------------------------- About Kingston Page Styling end */
 
 /* ---------------------------------------------- Contact Page Styling start */
 
 .hero-landing {
-    background-image: url("/assets/media/images/contact_page.jpg");
+    background-image: url("./media/images/contact_page.jpg");
     height: calc(100vh - 76px);
     width: 100vw;
     background-position: center;

@@ -143,6 +143,11 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 ---
 
+- #### Content
+    - The text for the About Kingston - Food & Drink section came from [inKingston](https://www.inkingston.co.uk/food-drink).
+
+---
+
 - #### Images
   The images used on this site came from a vaiety of sources.
   

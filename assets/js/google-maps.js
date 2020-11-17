@@ -618,6 +618,9 @@ let attractionsLocations = [{
 
 // Create the map and markers
 
+let marker = [];
+let map;
+
 function initMap(filterMarkers) {
     // Set default location of map
     let defaultLatlng = {
@@ -629,6 +632,7 @@ function initMap(filterMarkers) {
     let map = new google.maps.Map(document.getElementById("map"), {
         zoom: 15,
         center: defaultLatlng,
+        mapTypeControl: false,
     });
 
     // Set dictionary of labels to be used
@@ -669,3 +673,6 @@ document.getElementById("places_to_stay").onclick = () => {
 document.getElementById("attractions").onclick = () => {
     initMap(attractionsLocations);
 };
+
+// Code to add data to table list
+
