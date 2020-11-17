@@ -189,22 +189,22 @@ let HeroSlider = (function (_React$Component) {
 
 let slides = [
   {
-    img: "/assets/media/images/landing_image_1.jpg",
+    img: "../media/images/landing_image_1.jpg",
   },
   {
-    img: "/assets/media/images/landing_image_2.jpg",
+    img: "../media/images/landing_image_2.jpg",
   },
   {
-    img: "/assets/media/images/landing_image_3.jpg",
+    img: "../media/images/landing_image_3.jpg",
   },
   {
-    img: "/assets/media/images/landing_image_4.jpg",
+    img: "../media/images/landing_image_4.jpg",
   },
   {
-    img: "/assets/media/images/landing_image_5.jpg",
+    img: "../media/images/landing_image_5.jpg",
   },
   {
-    img: "/assets/media/images/landing_image_6.jpg",
+    img: "../media/images/landing_image_6.jpg",
   },
 ];
 

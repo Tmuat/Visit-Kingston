@@ -674,5 +674,6 @@ document.getElementById("attractions").onclick = () => {
     initMap(attractionsLocations);
 };
 
-// Code to add data to table list
-
+$.when( $.ready ).then(function() {
+    initMap([...attractionsLocations, ...placesToStayLocations, ...foodAndDrinkLocations]);
+});
