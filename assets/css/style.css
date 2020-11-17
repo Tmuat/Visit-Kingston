@@ -373,7 +373,7 @@ div#map {
 /* ---------------------------------------------- About Kingston Page Styling start */
 
 .hero-landing-about-image {
-    background-image: url("./media/images/about_page.jpg");
+    background-image: url("../media/images/about_page.jpg");
     height: calc(100vh - 76px);
     width: 100vw;
     background-position: center;
@@ -383,7 +383,7 @@ div#map {
 }
 
 .food-drink-image {
-    background-image: url("./media/images/food_and_drink_2.jpg");
+    background-image: url("../media/images/food_and_drink_2.jpg");
     max-width: 100%;
     min-height: 450px;
     background-position: center;
@@ -397,7 +397,7 @@ div#map {
 /* ---------------------------------------------- Contact Page Styling start */
 
 .hero-landing {
-    background-image: url("./media/images/contact_page.jpg");
+    background-image: url("../media/images/contact_page.jpg");
     height: calc(100vh - 76px);
     width: 100vw;
     background-position: center;
