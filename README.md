@@ -132,6 +132,9 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 - Code for the Instagram social media icon came from [Font Awesome](https://fontawesome.com/icons/instagram-square?style=brands).
 - Code for the Youtube social media icon came from [Font Awesome](https://fontawesome.com/icons/youtube-square?style=brands).
 - Code for the Twitter social media icon came from [Font Awesome](https://fontawesome.com/icons/twitter-square?style=brands).
+- Code for the internet globe symbol came from [Font Awesome](https://fontawesome.com/icons/globe?style=solid).
+- Code for the left and right arrows for the card carousel came from [Font Awesome](https://fontawesome.com/icons/chevron-circle-right?style=solid) and [Font Awesome](https://fontawesome.com/icons/chevron-circle-left?style=solid).
+- Code for the icons on the contact page all came from [Font Awesome](https://fontawesome.com/), specifically these icons [user](https://fontawesome.com/icons/user?style=solid), [envelope](https://fontawesome.com/icons/envelope?style=regular), [tag](https://fontawesome.com/icons/tag?style=solid) and [sticky note](https://fontawesome.com/icons/sticky-note?style=regular).
 
 ---
 
