@@ -1,7 +1,7 @@
 # Milestone Project 2 - Visit Kingston
 
 
-View live project [here]().
+View live project [here](tmuat.github.io/milestone-project-2/).
 
 ---
 ## Description
