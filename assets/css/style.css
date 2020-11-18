@@ -218,8 +218,9 @@ div#map {
   width: 90%;
 }
 
-.table-row-height {
+.table-row {
     height: 125px;
+    cursor: pointer;
 }
 
 /* ----------------------- Maps List & Google Map end */
@@ -390,6 +391,10 @@ div#map {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0,0.5);
+}
+
+.contact-row {
+    height: 100vh;
 }
 
 .card {

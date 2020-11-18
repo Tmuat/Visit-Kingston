@@ -776,7 +776,7 @@ $.when( $.ready ).then(function() {
 function addTableRow(filterMarkers) {
     $("#maps-table").append(
         `<tr>
-            <td class="table-row-height">
+            <td class="table-row">
                 <h3>${filterMarkers.name}</h3>
                 <p class="mb-0">${filterMarkers.address}</p>
             </td>
