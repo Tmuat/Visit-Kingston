@@ -201,9 +201,31 @@ This project is currently being hosted by GitHub Pages; in order to deploy the s
 
 ### Github Deployment
 
+To deploy this site to Github pages, the following steps were taken.
 
+1. Sign in to Github and select the repository to be deployed - [here](https://github.com/Tmuat/milestone-project-2)
+
+2. Once in the repository, select the settings as highlighted below in green.
+
+![deployment step 1](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/deployment/deploying1.png "deployment step 1")
+
+3. In the settings menu, scrol down until you get to the github pages section (highlighted in green below)
+
+4. Make sure to select the master branch from the source dropdown menu; following this select the save option
+
+5. You will then have to scroll down to github pages again
+
+![deployment step 2](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/deployment/deploying2.png "deployment step 2")
+
+6. Here you can see the site successfully deployed and copy/click the url
+
+![deployment step 3](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/deployment/deploying3.png "deployment step 3")
+
+For more information on deploying through Github pages, please click [here](https://github.com/marketplace/actions/deploy-to-github-pages).
 
 ### Deploying Yourself
+
+
 
 [Return to Contents](#contents)
 
