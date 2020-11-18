@@ -163,7 +163,17 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 ---
 
+- More sections
+    - With the nature of a travel site, there is countless more sections that can be added to continue to add to the user experience and information offered to those wanting to visit Kingston.
 
+- Intergration to a booking site
+    - Allow users to book hotels/meals directly on the site as opposed to having to be directed off the site
+
+- Differing markers on map
+    - Put different colour markers on the maps depending on the genre to allow the user to visually distinguish locations of venues/attractions
+
+- Price info
+    - Add price info for attractions to give users more information for informed choices
 
 [Return to Contents](#contents)
 
