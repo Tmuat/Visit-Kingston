@@ -197,7 +197,7 @@ In order to check that all the HTML & CSS were in compliance of the recognised s
 
 ## Deployment
 
-This project is currently being hosted by GitHub Pages; in order to deploy the site yourself, please follow the sub-section ["Deploying Yourself"](#deploying-yourself)
+This project is currently being hosted by GitHub Pages; in order to to clone the site yourself, please follow the sub-section ["Clone"](#clone)
 
 ### Github Deployment
 
@@ -223,9 +223,11 @@ To deploy this site to Github pages, the following steps were taken.
 
 For more information on deploying through Github pages, please click [here](https://github.com/marketplace/actions/deploy-to-github-pages).
 
-### Deploying Yourself
+### Clone
 
+Should you wish to fork the project, please follow the below steps.
 
+1. Sign in to Github and select the repository to be deployed - [here](https://github.com/Tmuat/milestone-project-2)
 
 [Return to Contents](#contents)
 
