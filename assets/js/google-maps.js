@@ -534,22 +534,6 @@ let attractionsLocations = [{
         `
     },
     {
-        // The Queen's Head
-        coords: {
-            lat: 51.418521,
-            lng: -0.301608
-        },
-        infoContent: `
-        <h4 class="info-card-header text-center">The Queen's Head</h4>
-        <h6 class="info-card-address text-center">144 Richmond Rd, Kingston Upon Thames, KT2 5HA</h6>
-        <div>
-            <p class="info-card-desc text-center">Our Indulgence rooms provide all the space and facilities you need to enjoy a truly special break. Featuring a luxurious king-size bed, plus a well-appointed ensuite bathroom, flatscreen TV and more, these rooms promise a memorable stay in Kingston.</p>
-            <p class="info-card-website text-center mb-0">Website:</p>
-            <p class="info-card-website text-center"><a href="https://www.queensheadkingston.co.uk" target="blank">www.queensheadkingston.co.uk</a></p>
-        </div>
-        `
-    },
-    {
         // Odeon
         coords: {
             lat: 51.412261,

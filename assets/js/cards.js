@@ -8,6 +8,10 @@ $('#cardCarouselStay').carousel({
   interval: 10000
 })
 
+$('#cardCarouselAttractions').carousel({
+  interval: 10000
+})
+
 $('.carousel .carousel-item').each(function(){
     let minPerSlide = 3;
     let next = $(this).next();
