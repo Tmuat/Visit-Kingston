@@ -746,7 +746,6 @@ function initMap(filterMarkers) {
 
 // Sets the current theOpenedInfoWindow to null as on page load an info window wont be opne
 let theOpenedInfoWindow = null;
-console.log(theOpenedInfoWindow)
 
 // Get the map filter clicked from index.html dropdown
 
