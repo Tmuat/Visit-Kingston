@@ -223,6 +223,10 @@ div#map {
     cursor: pointer;
 }
 
+.heading-size {
+    font-size: 1.75rem;
+}
+
 /* ----------------------- Maps List & Google Map end */
 
 /* ---------------------------------------------- Home Page Styling end */
