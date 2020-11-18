@@ -35,6 +35,7 @@ To build the site I have put into practice the knowledge and skills acquired fro
     - [Lighthouse Accessibility](#lighthouse-accessibility)
     - [JSHint](#jshint)
     - [Responsivley](#responsivley)
+    - [Manual Testing](#manual-testing)
     - [User Story Testing](#user-story-testing)
     - [Fixed Bugs](#fixed-bugs)
     - [Known Bugs](#known-bugs)
@@ -303,6 +304,77 @@ All Javascript codes were passed through the [JSHint](https://jshint.com/) valid
 
 ![responsiveness testing 2](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsive2.gif "responsiveness testing 2")
 
+---
+
+### Manual Testing
+
+Along with the automated testing, the site was put through a whole selection of manual user testing. A brief summary of this manual testing can be found below:
+
+- Home Page
+    - Navbar 
+        - Navbar loads up and displays logo, site name and 3 navigation links
+        - Navbar is responsive and switches to a hamburger icon on smaller sizes
+        - All 3 links work and take the user to the desired page
+        - On hover the hover.css animations work for the 3 links
+        - Clicking the logo in the top left takes the user back to the home screen
+        - On smaller sizes, the hamburger icon expands the menu in a dropdown fashion
+        - On scroll the navbar stays attached to the top of the screen
+    - Hero Carousel
+        - Verify that the hero images load up and the carousel starts on page load
+        - Check the hero text changes from being positioned on the left to taking the middle of the screen
+        - The hero text moves from left aligned to centre on smaller screens
+        - The background images change to dedicated small background images on small devices
+    - Maps Section
+        - Check the maps loads up without faults and the correct zoom and long/lat are loaded
+        - Verify the map is loaded with all markers
+        - Verify the list alongside the map is loaded with all venues/attractions
+        - Check that on marker click, an info window is loaded with required information
+        - Check that on row click, the info window in the map is opened
+        - Check that the map filter alters the markers on the map dependent on selection
+        - Check that on small screens the list is not shown
+    - Footer
+        - Ensure that all links work to the respective pages
+        - Check the social media links access the correct web pages
+        - Ensure the links change to a stack on smaller screen sizes
+    - Back To Top button
+        - Ensure the button appears on scroll
+        - Verify on click it takes the user back to the top of the page
+
+- About Kingston Page
+    - Navbar
+        - Same testing as home page
+    - Hero image
+        - Verify the landing image loads
+        - Check the image is responsive and covers 100vw
+        - Check the hero text centers and fills the screen on the small screen sizes
+    - About Kingston sections
+        - Ensure that the AOS animations work when moving down the page
+        - Ensure the text and container margins are responsive
+        - Check to ensure the card carousels appear and act as expected
+        - Check the user can control the card carousels
+        - Check the card carousels aren't shown on small screen sizes
+        - On the cards, the user can access all the links to external sites
+        - Check the 'View on map' buttons take the user to the home page and loads at the map
+    - Footer
+        - As above in home page section
+    - Back To Top button
+        - As above in home page section
+
+- Contact Page
+    - Navbar
+        - Same testing as home page
+    - Background
+        - Ensure the background loads and covers the screen
+        - Check the background overlay is in place and completely covers the background image
+    - Contact Form
+        - Check the contact form is adaptive to all screen sizes
+        - Check the form fields are able to be typed into
+        - Check the form 'required' enforces the user to input the correct information
+        - On successful form submission a success message is displayed to the user
+        - On a form submission error, a warning message is displayed
+        - The success/warming message is able to be cleared off the screen
+    - Footer
+        - As above in home page section
 ---
 
 ### User Story Testing
