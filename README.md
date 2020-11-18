@@ -23,6 +23,8 @@ To build the site I have put into practice the knowledge and skills acquired fro
 
 ### mobile
 
+
+
 ---
 
 ## Contents
