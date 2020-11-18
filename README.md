@@ -34,6 +34,7 @@ To build the site I have put into practice the knowledge and skills acquired fro
     - [WC3 Validation](#wc3-validation)
     - [Lighthouse Accessibility](#lighthouse-accessibility)
     - [JSHint](#jshint)
+    - [Fixed Bugs](#fixed-bugs)
     - [Known Bugs](#known-bugs)
 - [Deployment](#deployment)
     - [Github Deployment](#github-deployment)
@@ -226,6 +227,13 @@ All Javascript codes were passed through the [JSHint](https://jshint.com/) valid
 ![responsiveness testing](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsive1.gif "responsiveness testing")
 
 ![responsiveness testing 2](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsive2.gif "responsiveness testing 2")
+
+### Fixed Bugs
+
+- Issue with image paths when pushing to github pages 
+    - Fixed relative file paths - [commit](https://github.com/Tmuat/milestone-project-2/commit/b919a8b3231827775bc591c06d037c9eed6f0379)
+- Navbar was not 'sticky' on page scroll
+    - Added class to keep navbar at the top of the screen - [commit](https://github.com/Tmuat/milestone-project-2/commit/52aef10e3cd4ec559d54cb5dfe7c2d388d3c294d)
 
 ### Known Bugs
 
