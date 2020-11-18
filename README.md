@@ -28,6 +28,8 @@ To build the site I have put into practice the knowledge and skills acquired fro
     - [Existing Features](#existing-features)
     - [Features Left to Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Frameworks and External Resources](#frameworks-and-externalresources)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -119,6 +121,56 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 ## Technologies Used
 
+### Languages
+
+Across the site 3 languages were used:
+
+- HTML5
+    - This was used to form the structure of each page
+- CSS3
+    - This was used to add syling to all html elements
+- JavaScript
+    - This was was to make pages interactive (e.g. google maps)
+
+### Frameworks and External Resources
+
+A number of external frameworks, code libraries and programs were incorportated into the Visit Kingston site. These are listed below with code attribution within each segment of the live site and in the credits section towards the end of this README.
+
+- [Bootstrap 4.5.2](https://getbootstrap.com/)
+    - Bootstrap formed the skeleton of the website; the bootstrap grid system and classes formed the underlying structure of the site
+
+- [Font Awesome 4.7.0](https://fontawesome.com/)
+    - Font Awesome was used to add icons across the site for a more intuitive user experience
+
+- [JQuery 3.5.1](https://jquery.com/)
+    - JQuery was used across the different pages of the site to create interactive elements without the need for huge volumes of Javascript coding
+
+- [Popper.js 1.16.1](https://popper.js.org/)
+    - Popper was used with Bootstrap to create a responsive navbar element
+
+- [Google Maps API](https://developers.google.com/maps/documentation/)
+    - The Google Maps API was used to create a map with markers of places to eat & drink, stay overnight and attractions to see
+
+- [Animate On Scroll 2.3.1](https://michalsnik.github.io/aos/)
+    - Animate on scroll was used on the 'About Kingston' page to add affects to titles and dividers
+
+- [EmailJS](https://www.emailjs.com/)
+    - EmailJS was used to automate the sending of emails in the contact section
+
+- [Hover.css](https://ianlunn.github.io/Hover/)
+    - Hover.css was used to create hover affects for the menu items in the navbar. The license can be found [here](https://github.com/Tmuat/milestone-project-2/blob/master/assets/licenses/hover-css.txt)
+
+- [Gitpod](https://gitpod.io/)
+    - Gitpod was the development environment used to code this site, gitpods terminal was used to synchronise with Github
+
+- [Github](https://github.com/)
+    - Github was used to store all components of this site during and after the build
+
+- [Git](https://git-scm.com/)
+    - Git was the version control system utilised for the build of this project
+
+- [Figma](https://www.figma.com/)
+    - Figma was used to create the wireframes prior to the build commencing
 
 [Return to Contents](#contents)
 
