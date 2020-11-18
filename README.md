@@ -84,6 +84,10 @@ The hex codes for the two main colours are #FFFFFF and #03487E.
 
 The main font used on the site is Noto Serif. It was chosen after experimenting with a number of fonts on [google fonts](fonts.google.com); it provided a visually pleasing font which stood out against both the dark blue and white backgrounds.
 
+#### Landing Imagery
+
+The imagery chosen for the landing screen was used to highlight multiple positive aspects kington has to offer and to entice the user to dig deeper into what they can do when visiting kingston.
+
 ---
 
 ### Wireframes
@@ -193,7 +197,7 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 ---
 
-
+I would like to thank my mentor Oluwafemi Medale for his help keeping me on the right lines. I would like to thank all the people that kindly sat and reviewed my site through production.
 
 ---
 
