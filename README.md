@@ -229,6 +229,22 @@ Should you wish to fork the project, please follow the below steps.
 
 1. Sign in to Github and select the repository to be deployed - [here](https://github.com/Tmuat/milestone-project-2)
 
+2. Click the code button near the top of the repository (highlighted in green below)
+
+![clone step 1](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/deployment/clone1.png "clone step 1")
+
+3. From here you can either download as a zip file to load into an IDE of your choice or you can copy the url using the clipboard icon
+
+![clone step 2](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/deployment/clone2.png "clone step 2")
+
+4. To use the link, in your Git terminal line, use the command "git clone" followed by the url copied.
+
+```
+$ git clone https://github.com/Tmuat/milestone-project-2.git
+```
+
+For more information about cloning with github please click [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
 [Return to Contents](#contents)
 
 ## Credits
