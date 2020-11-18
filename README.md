@@ -15,6 +15,16 @@ To build the site I have put into practice the knowledge and skills acquired fro
 
 ---
 
+## Lighthouse Scores
+
+### Desktop
+
+
+
+### mobile
+
+---
+
 ## Contents
 
 - [UX](#ux)
