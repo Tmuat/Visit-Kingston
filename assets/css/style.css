@@ -241,6 +241,10 @@ div#map {
   width: 90%;
 }
 
+.table-row-height {
+    height: 125px;
+}
+
 /* ----------------------- Maps List & Google Map end */
 
 /* ---------------------------------------------- Home Page Styling end */

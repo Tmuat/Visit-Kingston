@@ -21,7 +21,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.theramkingston.com/" target="blank">www.theramkingston.com</a></p>
         </div>
-        `
+        `,
+        name: "The Ram Pub",
+        address: "34 High St, Kingston Upon Thames, KT1 1HL"
     },
     {
         // Wagamama
@@ -37,7 +39,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.wagamama.com/restaurants/kingston-upon-thames" target="blank">www.wagamama.com</a></p>
         </div>
-        `
+        `,
+        name: "Wagamama",
+        address: "16-18 High St, Kingston Upon Thames, KT1 1EY"
     },
     {
         // GBK
@@ -53,7 +57,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://restaurants.gbk.co.uk/kingston/kingston-high-street" target="blank">www.gbk.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Gourmet Burger Kitchen",
+        address: "42-46 High St, Kingston Upon Thames, KT1 1HL"
     },
     {
         // Las Iguanas
@@ -69,7 +75,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.iguanas.co.uk/restaurants/kingston" target="blank">www.iguanas.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Las Iguanas",
+        address: "The Malthouse, 25-29 High St, Kingston Upon Thames, KT1 1LL"
     },
     {
         // Steins
@@ -85,7 +93,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.kingston.stein-s.com/" target="blank">www.kingston.stein-s.com</a></p>
         </div>
-        `
+        `,
+        name: "Steins",
+        address: "56 High St, Kingston Upon Thames, KT1 1HN"
     },
     {
         // Pizza Express.
@@ -101,7 +111,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.pizzaexpress.com/kingston-portsmouth-road?utm_source=google&utm_medium=Places&utm_campaign=kingston-portsmouth-road" target="blank">www.pizzaexpress.com</a></p>
         </div>
-        `
+        `,
+        name: "Pizza Express",
+        address: "41 High St, Kingston Upon Thames, KT1 1LQ"
     },
     {
         // Zizzi
@@ -117,7 +129,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.zizzi.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=panel" target="blank">www.zizzi.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Zizzi",
+        address: "43 Market Pl, Kingston Upon Thames, KT1 1ET"
     },
     {
         // Cote
@@ -133,7 +147,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.cote.co.uk/restaurant/kingston/" target="blank">www.cote.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Côte Brasserie",
+        address: "6 Riverside Walk, Kingston Upon Thames,KT1 1QN"
     },
     {
         // Bills
@@ -149,7 +165,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.bills-website.co.uk/restaurants/kingston?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing" target="blank">www.bills-website.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Bills",
+        address: "2 Riverside Walk, Kingston Upon Thames, KT1 1QN"
     },
     {
         // Shakeaway
@@ -165,7 +183,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.shakeaway.com/" target="blank">www.shakeaway.com</a></p>
         </div>
-        `
+        `,
+        name: "Shakeaway",
+        address: "15 Thames St, Kingston Upon Thames, KT1 1PJ"
     },
     {
         // O'Neills
@@ -181,7 +201,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.oneills.co.uk/national-search/south-east/kingston-upon-thames?utm_source=google&utm_medium=organic&utm_campaign=gmb" target="blank">www.oneills.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "O'Neills",
+        address: "3 Eden St, Kingston Upon Thames, KT1 1BQ"
     },
     {
         // Carluccio's
@@ -197,7 +219,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.carluccios.com/restaurants/london-bentalls/" target="blank">www.carluccios.com</a></p>
         </div>
-        `
+        `,
+        name: "Carluccio's",
+        address: "4 Wood St, Kingston Upon Thames, KT1 1TX"
     },
     {
         // Frangos
@@ -213,7 +237,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.frangos.co.uk/" target="blank">www.frangos.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Frangos",
+        address: "The Rotunda, Clarence St, Kingston Upon Thames, KT1 1QJ"
     },
     {
         // Five Guys
@@ -229,7 +255,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://restaurants.fiveguys.co.uk/greater-london/the-rotunda-unit-2-clarence-st" target="blank">www.fiveguys.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Five Guys",
+        address: "The Rotunda, Unit 2 Clarence St, Kingston Upon Thames, KT1 1QJ"
     },
     {
         // Pizza Hut
@@ -245,7 +273,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.pizzahut.co.uk/restaurants/find-a-hut/kingston-upon-thames/kingston-upon-thames/?utm_source=google&utm_medium=maps&utm_content=kingston-upon-thames&utm_campaign=googleplaces" target="blank">www.pizzahut.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Pizza Hut",
+        address: "105 Clarence St, Kingston Upon Thames, KT1 1QY"
     },
     {
         // The Tun
@@ -261,7 +291,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-kings-tun-kingston-upon-thames" target="blank">www.jdwetherspoon.com</a></p>
         </div>
-        `
+        `,
+        name: "The Tun",
+        address: "The Kings Tun, Clarence St, Kingston Upon Thames, KT1 1QT"
     },
     {
         // Canbury Cafe
@@ -277,7 +309,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="http://canburysecret.co.uk/" target="blank">www.canburysecret.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Canbury Cafe",
+        address: "Kingston Riverside Club, Kingston Upon Thames, KT2 5AJ"
     },
     {
         // Harts Boatyard
@@ -293,7 +327,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.hartsboatyard.co.uk/" target="blank">www.hartsboatyard.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Harts Boatyard",
+        address: "Portsmouth Rd, Surbiton, KT6 4ES"
     },
     {
         // The Swan
@@ -309,7 +345,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="http://hongthai.co.uk/" target="blank">www.hongthai.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "The Swan",
+        address: "22 High St, Hampton Wick, Kingston Upon Thames, KT1 4DB"
     },
     {
         // Busaba
@@ -325,7 +363,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.busaba.com/locations/busaba-kingston-riverside?utm_source=gmb&utm_medium=organic" target="blank">www.busaba.com</a></p>
         </div>
-        `
+        `,
+        name: "Busaba",
+        address: "4 Riverside Walk, Kingston Upon Thames, KT1 1QN"
     },
     {
         // Haché Riverside Social
@@ -341,7 +381,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.hacheburgers.com/hache-kingston" target="blank">www.hacheburgers.com</a></p>
         </div>
-        `    
+        `,
+        name: "Haché Riverside Social",
+        address: "Unit 5, Riverside Walk, Kingston Upon Thames, KT1 1QN"
     },
     {
         // Chakara
@@ -357,7 +399,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.chakra.restaurant/chakra-kingston/" target="blank">wwww.chakra.com</a></p>
         </div>
-        `
+        `,
+        name: "Chakara",
+        address: "Bishops Palace House, 1 Riverside Walk, Kingston Upon Thames, KT1 1QN"
     },
     {
         // Nandos
@@ -373,7 +417,9 @@ let foodAndDrinkLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.nandos.co.uk/restaurants/kingston-upon-thames" target="blank">www.nandos.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Nandos",
+        address: "37-38 High St, Kingston Upon Thames, KT1 1LQ"
     },
 ];
 
@@ -396,7 +442,9 @@ let placesToStayLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.hilton.com/en/hotels/lonktdi-doubletree-london-kingston-upon-thames/" target="blank">www.hilton.com</a></p>
         </div>
-        `
+        `,
+        name: "Hilton",
+        address: "1 Skerne Rd, Kingston Upon Thames, KT2 5FJ"
     },
     {
         // White Hart
@@ -412,7 +460,9 @@ let placesToStayLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.whiteharthoteluk.co.uk/" target="blank">www.whiteharthoteluk.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "The White Hart",
+        address: "1 High St, Hampton Wick, Kingston Upon Thames, KT1 4DA"
     },
     {
         // Premier Inn
@@ -428,7 +478,9 @@ let placesToStayLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-kingston-upon-thames.html?cid=GLBC_KINUPT" target="blank">www.premierinn.com</a></p>
         </div>
-        `
+        `,
+        name: "Premier Inn",
+        address: "Combined House, 15 Wheatfield Way, Kingston Upon Thames, KT1 2PD"
     },
     {
         // The Queen's Head
@@ -444,7 +496,9 @@ let placesToStayLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.queensheadkingston.co.uk" target="blank">www.queensheadkingston.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "The Queen's Head",
+        address: "144 Richmond Rd, Kingston Upon Thames, KT2 5HA"
     },
     {
         // The Foresters Arms
@@ -460,7 +514,9 @@ let placesToStayLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.the-foresters.com/" target="blank">www.the-foresters.com</a></p>
         </div>
-        `
+        `,
+        name: "The Foresters Arms",
+        address: "45 High St, Hampton Wick, Kingston Upon Thames, KT1 4DG"
     },
     {
         // Travel Lodge
@@ -476,7 +532,9 @@ let placesToStayLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.travelodge.co.uk/hotels/397/Kingston-Upon-Thames-Central-hotel" target="blank">www.travelodge.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Travel Lodge",
+        address: "International House, Wheatfield Way, Kingston Upon Thames, KT1 2PD"
     },
 ];
 
@@ -499,7 +557,9 @@ let attractionsLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="http://www.davidmach.com/" target="blank">www.davidmach.com</a></p>
         </div>
-        `
+        `,
+        name: "Out of Order Postboxes",
+        address: "Old London Road, Kingston Upon Thames, KT2 6QF"
     },
     {
         // Bentalls Centre
@@ -515,7 +575,9 @@ let attractionsLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.bentallcentre.co.uk/" target="blank">www.bentallcentre.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "The Bentalls Centre",
+        address: "Wood St, Kingston Upon Thames, KT1 1TP"
     },
     {
         // Rose Theatre
@@ -531,7 +593,9 @@ let attractionsLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="http://www.rosetheatrekingston.org/" target="blank">www.rosetheatrekingston.orgm</a></p>
         </div>
-        `
+        `,
+        name: "Rose Theatre",
+        address: "24-26 High St, Kingston Upon Thames, KT1 1HL"
     },
     {
         // Odeon
@@ -547,7 +611,9 @@ let attractionsLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.odeon.co.uk/cinemas/kingston/?" target="blank">www.odeon.co.uk</a></p>
         </div>
-        `
+        `,
+        name: "Odeon",
+        address: "The Rotunda, Clarence St, Kingston Upon Thames, KT1 1QP"
     },
     {
         // Banquet Records
@@ -563,7 +629,9 @@ let attractionsLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="http://www.banquetrecords.com/" target="blank">www.banquetrecords.com</a></p>
         </div>
-        `
+        `,
+        name: "Banquet Records",
+        address: "52 Eden St, Kingston Upon Thames, KT1 1EE"
     },
     {
         // Canbury Gardens
@@ -579,7 +647,9 @@ let attractionsLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="#" target="blank">Na</a></p>
         </div>
-        `
+        `,
+        name: "Canbury Gardens",
+        address: "19 Samuel Gray Gardens, Kingston Upon Thames, KT2 5UY"
     },
     {
         // Bushy Park
@@ -595,7 +665,9 @@ let attractionsLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="https://www.royalparks.org.uk/parks/bushy-park" target="blank">www.royalparks.org.uk</a></p>
         </div>
-        `
+        `,
+        name: "Bushy Park",
+        address: "Hampton Ct Rd, Hampton, TW12 2EJ"
     },
     {
         // Coronation Stone
@@ -611,15 +683,19 @@ let attractionsLocations = [{
             <p class="info-card-website text-center mb-0">Website:</p>
             <p class="info-card-website text-center"><a href="#" target="blank">NA</a></p>
         </div>
-        `
+        `,
+        name: "Coronation Stone",
+        address: "8-10 High St, Kingston Upon Thames, KT1 1EY"
     },
 ];
 
-// Set dictionary of labels to be used
-let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-// Create the map and markers
+// Global Variables
 let marker = [];
 let map;
+let infowindow;
+
+// Set dictionary of labels to be used
+let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 function initMap(filterMarkers) {
     // Set default location of map
@@ -638,39 +714,57 @@ function initMap(filterMarkers) {
     // Iterate through all markers selected and assign coordinates & label in marker, then set content for info window
     if (filterMarkers) {
         for (let i = 0; i < filterMarkers.length; i++) {
+            // Adds the markers to the map
             let marker = new google.maps.Marker({
                 position: filterMarkers[i].coords,
                 map,
                 label: labels[i % labels.length],
                 animation: google.maps.Animation.DROP,
             });
-            
-            const infowindow = new google.maps.InfoWindow({
+            // Gets the content for the info windows in the map
+            let infowindow = new google.maps.InfoWindow({
                 content: filterMarkers[i].infoContent,
                 maxWidth: 300,
             });
-
-            marker.addListener("click", () => {
+            // Adds a listner for when a map marker is clicked to open the info window and only allow one to be open
+            marker.addListener("click", function() {
+                if (theOpenedInfoWindow != null) {
+                    theOpenedInfoWindow.close();
+                }
+                    infowindow.open(map, marker);
+                    theOpenedInfoWindow = infowindow;
+            });
+            // Adds a listner for when a table row is clicked to open the info window
+            $("tr").last().click(function() {
                 infowindow.open(map, marker);
             });
+            // Adds the table rows to the html table next to the maps
+            addTableRow(filterMarkers[i]);
         };
     };
 }
 
+// Sets the current theOpenedInfoWindow to null as on page load an info window wont be opne
+let theOpenedInfoWindow = null;
+console.log(theOpenedInfoWindow)
+
 // Get the map filter clicked from index.html dropdown
 
-// Gets the food & drink list
-document.getElementById("food_and_drink").onclick = () => {
+// Clears the current contents of the list next to the map and then gets the food & drink list
+document.getElementById("food_and_drink").onclick = function() {
+    clearTableRow();
     initMap(foodAndDrinkLocations);
 };
 
-// Gets the places to stay list
-document.getElementById("places_to_stay").onclick = () => {
+// Clears the current contents of the list next to the map and then gets the places to stay list
+document.getElementById("places_to_stay").onclick = function() {
+    clearTableRow();
     initMap(placesToStayLocations);
 };
 
-// Gets the attractions list
-document.getElementById("attractions").onclick = () => {
+// Clears the current contents of the list next to the map and then gets the attractions list
+document.getElementById("attractions").onclick = function() {
+    clearTableRow();
     initMap(attractionsLocations);
 };
 
@@ -678,3 +772,20 @@ document.getElementById("attractions").onclick = () => {
 $.when( $.ready ).then(function() {
     initMap([...attractionsLocations, ...placesToStayLocations, ...foodAndDrinkLocations]);
 });
+
+// Creates the table rows to go alongside the google map
+function addTableRow(filterMarkers) {
+    $("#maps-table").append(
+        `<tr>
+            <td class="table-row-height">
+                <h3>${filterMarkers.name}</h3>
+                <p class="mb-0">${filterMarkers.address}</p>
+            </td>
+        </tr>`
+    );
+}
+
+// Clears the current contents of the table to allow for new info to be added
+function clearTableRow() {
+    $("#maps-table").empty();
+}
