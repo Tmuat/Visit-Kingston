@@ -34,6 +34,8 @@ To build the site I have put into practice the knowledge and skills acquired fro
     - [WC3 Validation](#wc3-validation)
     - [Lighthouse Accessibility](#lighthouse-accessibility)
     - [JSHint](#jshint)
+    - [Responsivley](#responsivley)
+    - [User Story Testing](#user-story-testing)
     - [Fixed Bugs](#fixed-bugs)
     - [Known Bugs](#known-bugs)
 - [Deployment](#deployment)
@@ -71,7 +73,7 @@ As briefly stated in the description; the purpose of this site is to provide Kin
 - As a user of this website I would like to be able to find information of places I can stay overnight in and around Kingston.
 - As a user of this website I would like to be able to find information about different attractions in and around Kingston.
 - As a user of this website I would like to be able to access more information about different venues/attractions (i.e. Links to external websites).
-- As a user of this website I woild like to be able to find and view locations on a map to allow me to plan my time in Kingston.
+- As a user of this website I would like to be able to find and view locations on a map to allow me to plan my time in Kingston.
 - As a user of this website I would like to be able to contact the makers of the website in case of any questions or suggestions.
 - As a user of this website I would like to be able to access the social media links of the website.
 
@@ -228,6 +230,51 @@ All Javascript codes were passed through the [JSHint](https://jshint.com/) valid
 
 ![responsiveness testing 2](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsive2.gif "responsiveness testing 2")
 
+### User Story Testing
+
+Testing the user stories from the [UX Section](#ux).
+
+"As a user of this website, first and foremost I would like to be presented with a well designed site that will allow me to navigate the site in an easy manor."
+    - When the site is first loaded they are presented with a simple blue navbar; including a logo and site name, alongside 3 links to the 3 pages.
+    - The current page is underlined to avoid any confusion as to which page the user is on.
+    - On smaller devices the navbar is collapsed but accessible through a burger icon in the top right.
+    - Should users be near the bottom of the page, the footer includes navigation links too.
+    - The hero image carousel highlights some of the positive aspects of Kingston.
+    - The site features a consistent theme, showing a well presented site.
+    - The site features a back to top icon to allow the user to quickly get themselves back to the top of the page.
+
+"As a user of this website I would like to be able to find information of places to eat and/or drink in Kingston."
+    - When the user navigates to the 'About Kingston' page and scroll to the 'Food & Drink' section. They are then presented with a short write up about what Kingston offers
+    - Users are presented with a carousel of suggestions, including 'name', 'address' and 'website'.
+    - Users can use a 'View On Map' button to be taken to the google map and access the markers for each location.
+
+"As a user of this website I would like to be able to find information of places I can stay overnight in and around Kingston."
+    - Following on from the section above, the 'Places To Stay' section includes a write up about different places to stay
+    - The suggesstions include both low cost and high end places to stay
+    - In keeping with a consistent theme, the users can use the 'View On Map' button to then view clickable markers on the map
+
+"As a user of this website I would like to be able to find information about different attractions in and around Kingston."
+    - Again in keeping with the flow of the website, the last of the 3 sections on the 'About Kingston' gives information on attractions
+    - There is a brief write up to summarise some of the attractions available
+    - Users are then presented with a button to take them to the map or look at a carousel of suggestions
+
+"As a user of this website I would like to be able to access more information about different venues/attractions (i.e. Links to external websites)."
+    - On all the suggestion carousels there is links to the external websites for the users that want to find more information
+    - When searching using the map, on all but small screens there is a list displayed with the 'name', 'address' and 'website' 
+    - On top of the list links; when a user clicks on a marker they are also displayed with an info card showing all the options in the list to the side
+
+"As a user of this website I would like to be able to find and view locations on a map to allow me to plan my time in Kingston."
+    - On the home page there is a intergrated map, including list of map markers and info. On the map there is the option to filter results to genres of the users choice
+
+"As a user of this website I would like to be able to contact the makers of the website in case of any questions or suggestions."
+    - The user can quickly navigate to the clearly marked contact page
+    - From here the user is presented with a contact form which can be submitted
+    - Upon submission the user gets a success message or error message
+
+"As a user of this website I would like to be able to access the social media links of the website."
+    - On all pages the user can view the social media links in the footer
+    - The footer is the same across designs to ensure consistent navigation of the site whichever page they are on.
+
 ### Fixed Bugs
 
 - Issue with image paths when pushing to github pages 
@@ -236,8 +283,8 @@ All Javascript codes were passed through the [JSHint](https://jshint.com/) valid
     - Added class to keep navbar at the top of the screen - [commit](https://github.com/Tmuat/milestone-project-2/commit/52aef10e3cd4ec559d54cb5dfe7c2d388d3c294d)
 - Multiple info windows able to be opened when clicking on a marker on the map
     - Added JS to check if an info window is already open - [commit](https://github.com/Tmuat/milestone-project-2/commit/fd1e9610bf25153b55cc067fc95e58f2cc4cfcc8)
-- When using Animate on scroll, "slide-left" was being buggy.
-    - Changed to "slide-up" - [commit](https://github.com/Tmuat/milestone-project-2/commit/4212662fd7169d464b4f6d64b243ba00b8836fcc)
+- When using Animate on scroll, "slide-left" was being buggy with the animation causing overflow issues.
+    - I could have adapted the document HTML & Body to "overflow-x: hidden"; however, I simply changed the amimation to "slide-up" - [commit](https://github.com/Tmuat/milestone-project-2/commit/4212662fd7169d464b4f6d64b243ba00b8836fcc)
 - Bootstrap styling on carousel images overriding class 100vw sizing
     - Bootstrap coding removed as redundant - [commit](https://github.com/Tmuat/milestone-project-2/commit/b8cf5dc9b72920ea588555a666f3517e61cd1180)
 - When navbar was changed to sticky, it caused my email send/error alert to be hidden behind the navbar
