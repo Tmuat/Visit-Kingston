@@ -223,9 +223,9 @@ All Javascript codes were passed through the [JSHint](https://jshint.com/) valid
 
 [Responsivley](https://responsively.app/) was used used to check the responsiveness of the site across multiple devices at the same time.
 
-![responsiveness testing](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsively1.gif "responsiveness testing")
+![responsiveness testing](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsive1.gif "responsiveness testing")
 
-![responsiveness testing 2](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsively2.gif "responsiveness testing 2")
+![responsiveness testing 2](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsive2.gif "responsiveness testing 2")
 
 ### Known Bugs
 
