@@ -91,9 +91,13 @@ I picked the colour scheme to compliment the coat of arms and provide a simple a
 
 The hex codes for the two main colours are #FFFFFF and #03487E.
 
+---
+
 #### Fonts
 
 The main font used on the site is Noto Serif. It was chosen after experimenting with a number of fonts on [google fonts](fonts.google.com); it provided a visually pleasing font which stood out against both the dark blue and white backgrounds.
+
+---
 
 #### Landing Imagery
 
@@ -115,13 +119,50 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 ---
 
+- Logo
+    - This is the boroughs logo, which ties in the colour scheme being used (blue and white) and provides the user with a link back to the home page
 
+- Navbar 
+    - The site features a consistent navbar across all pages. It includes the site logo along with 3 links to the 3 main pages. The navbar collapses into a hamburger icon on smaller screens to maximise screen space.
+    - The navbar is stuck to the top of the screen, meaning however far down the page the user scrolls they can always access the sites navigation links.
+
+- Favicon
+    - The site features a favicon consisting of the sites initias ('VK') styled in the chosen font with the sites blue theme as a background.
+
+- Footer
+    - The site features a consistent footer across all screen sizes; it includes links to all pages of the website for ease of navigation. 
+    - The footer also has 4 social media links styled as the respective sites logo.
+    - The footer lastly highlights the developer.
+
+- Hero Images
+    - There can be found on the two main content pages; all the images showcase aspects of Kingston Upon Thames.
+    - To increase the 'sales pitch' of Kingston Upon Thames, the home screen hero image is included in a carousel to showcase 6 images in total.
+
+- Map Intergration
+    - Below the home screen hero image is a API to google maps, including list of venues/attractions as well as the ability to filter.
+    - The map includes information on all the makers, allowing the user to navigate to the venue/attractions site should they want more info.
+
+- Back To Top button
+    - The site features a back to top button which becomes visible once the user has scrolled over 20px down either the home page or about kingston page.
+    - This feature allows the user to quickly return to the top of the page; this is most useful on the 'About Kingston' page as there is a lot of info.
+
+- Scroll animations
+    - The 'About Kingston' page features a number of scroll animations to spark the intrest of the user as they scroll
+
+- Card Carousel Suggestions
+    - The 'About Kingston' page features a number of carousels to highlight potential venues and attractions the user may be interested in.
+    - The card carousels present the information in a easy to digest fashion, whilst also allowing the user control of the scroll of the carousel to select options.
+
+- Contact Form
+    - This enables the user to contact the website team in an easy and manageable way; they can ask questions and make suggestions.
+    - The user gets a response to notify them when the email has been sent.
 
 ---
 
 ### Features Left to Implement
 
 ---
+
 
 
 [Return to Contents](#contents)
@@ -132,6 +173,8 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 ### Languages
 
+---
+
 Across the site 3 languages were used:
 
 - HTML5
@@ -141,7 +184,11 @@ Across the site 3 languages were used:
 - JavaScript
     - This was was to make pages interactive (e.g. google maps)
 
+---
+
 ### Frameworks and External Resources
+
+---
 
 A number of external frameworks, code libraries and programs were incorportated into the Visit Kingston site. These are listed below with code attribution within each segment of the live site and in the credits section towards the end of this README.
 
@@ -199,9 +246,13 @@ A number of external frameworks, code libraries and programs were incorportated 
 
 [Return to Contents](#contents)
 
+---
+
 ## Testing
 
 ### WC3 Validation
+
+---
 
 In order to check that all the HTML & CSS were in compliance of the recognised standards, all code was passed through the [W3C](https://www.w3.org/) validators. Specifically the [HTML validator](https://validator.w3.org/) and the [CSS validator](https://jigsaw.w3.org/css-validator/validator.html.en). The results of these tests can be found in the links below:
 
@@ -210,7 +261,11 @@ In order to check that all the HTML & CSS were in compliance of the recognised s
 - [Contact (contact.html)](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/validation/contact_validation.png)
 - [CSS](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/validation/css_validation.png)
 
+---
+
 ### Lighthouse Accessibility
+
+---
 
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) testing was used to ensure the Visit Kingston was accessible for all users. The results can be found in the links below:
 
@@ -218,11 +273,19 @@ In order to check that all the HTML & CSS were in compliance of the recognised s
 - [About Kingston (about-kingston.html)](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/lighthouse/about_kingston_lighthouse.png)
 - [Contact (contact.html)](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/lighthouse/contact_lighthouse.png)
 
+---
+
 ### JSHint
+
+---
 
 All Javascript codes were passed through the [JSHint](https://jshint.com/) validator with all corrections made.
 
+---
+
 ### Responsivley
+
+---
 
 [Responsivley](https://responsively.app/) was used used to check the responsiveness of the site across multiple devices at the same time.
 
@@ -230,7 +293,11 @@ All Javascript codes were passed through the [JSHint](https://jshint.com/) valid
 
 ![responsiveness testing 2](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsive2.gif "responsiveness testing 2")
 
+---
+
 ### User Story Testing
+
+---
 
 Testing the user stories from the [UX Section](#ux).
 
@@ -275,7 +342,11 @@ Testing the user stories from the [UX Section](#ux).
     - On all pages the user can view the social media links in the footer
     - The footer is the same across designs to ensure consistent navigation of the site whichever page they are on.
 
+---
+
 ### Fixed Bugs
+
+---
 
 - Issue with image paths when pushing to github pages 
     - Fixed relative file paths - [commit](https://github.com/Tmuat/milestone-project-2/commit/b919a8b3231827775bc591c06d037c9eed6f0379)
@@ -292,7 +363,11 @@ Testing the user stories from the [UX Section](#ux).
 - Images appearing squashed on small devices
     - Added stand alone background images for small devices - [commit](https://github.com/Tmuat/milestone-project-2/commit/2eb3c4ed54931b3546110a11c5afba4ac60b7db6)
 
+---
+
 ### Known Bugs
+
+---
 
 - When clicking a row on the maps table, you can open multiple info windows within the map
 
@@ -300,11 +375,17 @@ Testing the user stories from the [UX Section](#ux).
 
 [Return to Contents](#contents)
 
+---
+
 ## Deployment
 
 This project is currently being hosted by GitHub Pages; in order to to clone the site yourself, please follow the sub-section ["Clone"](#clone)
 
+---
+
 ### Github Deployment
+
+---
 
 To deploy this site to Github pages, the following steps were taken.
 
@@ -328,7 +409,11 @@ To deploy this site to Github pages, the following steps were taken.
 
 For more information on deploying through Github pages, please click [here](https://github.com/marketplace/actions/deploy-to-github-pages).
 
+---
+
 ### Clone
+
+---
 
 Should you wish to fork the project, please follow the below steps.
 
@@ -351,6 +436,8 @@ $ git clone https://github.com/Tmuat/milestone-project-2.git
 For more information about cloning with github please click [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 [Return to Contents](#contents)
+
+---
 
 ## Credits
 
