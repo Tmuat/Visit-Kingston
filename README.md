@@ -133,6 +133,14 @@ In order to check that all the HTML & CSS were in compliance of the recognised s
 - [Contact (contact.html)](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/validation/contact_validation.png)
 - [CSS](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/validation/css_validation.png)
 
+### Lighthouse Accessibility
+
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) testing was used to ensure the Visit Kingston was accessible for all users. The results can be found in the links below:
+
+- [Home (index.html)]()
+- [About Kingston (about-kingston.html)]()
+- [Contact (contact.html)]()
+
 [Return to Contents](#contents)
 
 ## Deployment
