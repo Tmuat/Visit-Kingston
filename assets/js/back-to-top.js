@@ -4,7 +4,7 @@
 let mybutton = document.getElementById("btt-button");
 
 // When the user scrolls down 40px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction();};
 
 function scrollFunction() {
   if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {

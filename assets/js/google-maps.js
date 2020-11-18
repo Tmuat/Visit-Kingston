@@ -698,14 +698,14 @@ let map;
 let infowindow;
 
 // Set dictionary of labels to be used
-let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 function initMap(filterMarkers) {
     // Set default location of map
     let defaultLatlng = {
         lat: 51.411509,
         lng: -0.3055578
-    }
+    };
 
     // Initialize map including zoom and default location
     let map = new google.maps.Map(document.getElementById("map"), {

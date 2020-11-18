@@ -31,7 +31,13 @@ To build the site I have put into practice the knowledge and skills acquired fro
     - [Languages](#languages)
     - [Frameworks and External Resources](#frameworks-and-externalresources)
 - [Testing](#testing)
+    - [WC3 Validation](#wc3-validation)
+    - [Lighthouse Accessibility](#lighthouse-accessibility)
+    - [JSHint](#jshint)
+    - [Known Bugs](#known-bugs)
 - [Deployment](#deployment)
+    - [Github Deployment](#github-deployment)
+    - [Clone](#clone)
 - [Credits](#credits)
     - [Code](#code)
     - [Media](#media)
@@ -172,6 +178,22 @@ A number of external frameworks, code libraries and programs were incorportated 
 - [Figma](https://www.figma.com/)
     - Figma was used to create the wireframes prior to the build commencing
 
+- [Google Fonts](https://fonts.google.com/)
+    - Google Fonts was used to find and import the selected font for the site
+
+- WC3 [HTML](https://validator.w3.org/) & [CSS](https://jigsaw.w3.org/css-validator/) Validator
+    - Both the CSS & HTML validators were used to check code for compliance with recognised standards
+
+- [Google Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools)
+    - Was used to check the accessibility of the site
+
+- [JSHint](https://jshint.com/)
+    - Was used to validate all Javascript codes
+
+- [Responsivley](https://responsively.app/)
+    - Responsivley was used to check the responsiveness of the site (see testing below)
+
+
 [Return to Contents](#contents)
 
 ## Testing
@@ -192,6 +214,24 @@ In order to check that all the HTML & CSS were in compliance of the recognised s
 - [Home (index.html)](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/lighthouse/index_lighthouse.png)
 - [About Kingston (about-kingston.html)](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/lighthouse/about_kingston_lighthouse.png)
 - [Contact (contact.html)](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/lighthouse/contact_lighthouse.png)
+
+### JSHint
+
+All Javascript codes were passed through the [JSHint](https://jshint.com/) validator with all corrections made.
+
+### Responsivley
+
+[Responsivley](https://responsively.app/) was used used to check the responsiveness of the site across multiple devices at the same time.
+
+![responsiveness testing](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsively1.gif "responsiveness testing")
+
+![responsiveness testing 2](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/responsiveness/responsively2.gif "responsiveness testing 2")
+
+### Known Bugs
+
+- When clicking a row on the maps table, you can open multiple info windows within the map
+
+- Slow load speeds (tested through [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)), some reccomendations include caching images which isnt currently possible with Github pages.
 
 [Return to Contents](#contents)
 
@@ -287,6 +327,7 @@ For more information about cloning with github please click [here](https://docs.
 - #### Content
     - The text for the About Kingston - Food & Drink section came from [inKingston](https://www.inkingston.co.uk/food-drink).
     - The text for the About Kingston - Attractions section came from [inKingston](https://www.inkingston.co.uk/accommodation) but was slightly adapted.
+    - All other content was the work of the developer.
 
 ---
 
