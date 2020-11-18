@@ -124,6 +124,14 @@ The wireframes for phone, tablet and desktop can be found by clicking [here](htt
 
 ## Testing
 
+### WC3 Validation
+
+In order to check that all the HTML & CSS were in compliance of the recognised standards, all code was passed through the [W3C](https://www.w3.org/) validators. Specifically the [HTML validator](https://validator.w3.org/) and the [CSS validator](https://jigsaw.w3.org/css-validator/validator.html.en). The results of these tests can be found in the links below:
+
+- [Home (index.html)](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/validation/index_validation.png)
+- [About Kingston (about_kingston.html)](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/validation/about_kingston_validation.png)
+- [Contact (contact.html)](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/validation/contact_validation.png)
+- [CSS](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/validation/css_validation.png)
 
 [Return to Contents](#contents)
 
