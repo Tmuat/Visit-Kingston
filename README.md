@@ -234,6 +234,16 @@ All Javascript codes were passed through the [JSHint](https://jshint.com/) valid
     - Fixed relative file paths - [commit](https://github.com/Tmuat/milestone-project-2/commit/b919a8b3231827775bc591c06d037c9eed6f0379)
 - Navbar was not 'sticky' on page scroll
     - Added class to keep navbar at the top of the screen - [commit](https://github.com/Tmuat/milestone-project-2/commit/52aef10e3cd4ec559d54cb5dfe7c2d388d3c294d)
+- Multiple info windows able to be opened when clicking on a marker on the map
+    - Added JS to check if an info window is already open - [commit](https://github.com/Tmuat/milestone-project-2/commit/fd1e9610bf25153b55cc067fc95e58f2cc4cfcc8)
+- When using Animate on scroll, "slide-left" was being buggy.
+    - Changed to "slide-up" - [commit](https://github.com/Tmuat/milestone-project-2/commit/4212662fd7169d464b4f6d64b243ba00b8836fcc)
+- Bootstrap styling on carousel images overriding class 100vw sizing
+    - Bootstrap coding removed as redundant - [commit](https://github.com/Tmuat/milestone-project-2/commit/b8cf5dc9b72920ea588555a666f3517e61cd1180)
+- When navbar was changed to sticky, it caused my email send/error alert to be hidden behind the navbar
+    - Added custom css to force the alert down - [commit](https://github.com/Tmuat/milestone-project-2/commit/841115d10ed78c795591721f0470dd1ee1ff4d66)
+- Images appearing squashed on small devices
+    - Added stand alone background images for small devices - [commit](https://github.com/Tmuat/milestone-project-2/commit/2eb3c4ed54931b3546110a11c5afba4ac60b7db6)
 
 ### Known Bugs
 
