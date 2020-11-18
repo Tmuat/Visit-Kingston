@@ -197,6 +197,13 @@ In order to check that all the HTML & CSS were in compliance of the recognised s
 
 ## Deployment
 
+This project is currently being hosted by GitHub Pages; in order to deploy the site yourself, please follow the sub-section ["Deploying Yourself"](#deploying-yourself)
+
+### Github Deployment
+
+
+
+### Deploying Yourself
 
 [Return to Contents](#contents)
 
