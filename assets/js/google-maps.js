@@ -2,10 +2,11 @@
 
 // Set locations variables
 
-// Food and drink locations
-// First in comments is the name of the marker
-// Second is the latitudes and longitudes
-// Last is the info to be displayed on info cards if clicked
+/** Food and drink locations
+ * First in comments is the name of the marker
+ * Second is the latitudes and longitudes
+ * Last is the info to be displayed on info cards if clicked
+ */
 
 let foodAndDrinkLocations = [{
         // The Ram Pub
@@ -423,10 +424,11 @@ let foodAndDrinkLocations = [{
     },
 ];
 
-// Places to stay locations
-// First in comments is the name of the marker
-// Second is the latitudes and longitudes
-// Last is the info to be displayed on info cards if clicked
+/** Places to stay locations
+ * First in comments is the name of the marker
+ * Second is the latitudes and longitudes
+ * Last is the info to be displayed on info cards if clicked
+ */
 
 let placesToStayLocations = [{
         // Hilton
@@ -538,10 +540,11 @@ let placesToStayLocations = [{
     },
 ];
 
-// Attraction locations
-// First in comments is the name of the marker
-// Second is the latitudes and longitudes
-// Last is the info to be displayed on info cards if clicked
+/** Attraction locations
+ * First in comments is the name of the marker
+ * Second is the latitudes and longitudes
+ * Last is the info to be displayed on info cards if clicked
+ */
 
 let attractionsLocations = [{
         // Out of Order Postboxes
@@ -765,6 +768,12 @@ document.getElementById("places_to_stay").onclick = function() {
 document.getElementById("attractions").onclick = function() {
     clearTableRow();
     initMap(attractionsLocations);
+};
+
+// Clears the current contents of the list next to the map and then gets all the lists
+document.getElementById("all").onclick = function() {
+    clearTableRow();
+    initMap([...attractionsLocations, ...placesToStayLocations, ...foodAndDrinkLocations]);
 };
 
 // Puts the 3 above lists together and serves the array on page load

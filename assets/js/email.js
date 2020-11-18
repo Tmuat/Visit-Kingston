@@ -25,7 +25,7 @@ function sendMail(contactForm) {
             // Puts up an alert to acknowledge form submission
             // Code for the alert from https://getbootstrap.com/docs/4.0/components/alerts/#dismissing
             $("#email-alert").html(`
-                <div class="alert alert-success alert-dismissible fade show mb-0" role="alert">
+                <div class="alert alert-success alert-dismissible fade show mb-0 custom-alert" role="alert">
                     <strong>Message Has Been Sent!</strong> We will get back to you ASAP.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -39,7 +39,7 @@ function sendMail(contactForm) {
             // Puts up an alert to highlight error in form submission
             // Code for the alert from https://getbootstrap.com/docs/4.0/components/alerts/#dismissing
             $("#email-alert").html(`
-                <div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
+                <div class="alert alert-danger alert-dismissible fade show mb-0 custom-alert" role="alert">
                     <strong>Message Has NOT Been Sent!</strong> Please try to re-submit the contact form.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
