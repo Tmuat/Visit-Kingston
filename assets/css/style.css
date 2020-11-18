@@ -71,7 +71,7 @@ html {
 .nav-sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 1000;
 }
 
@@ -157,7 +157,7 @@ html {
 
 .hero-landing-home-image {
     height: 100vh;
-    width: 100vw !important;
+    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -387,7 +387,8 @@ div#map {
 /* The below are my own styling for the cards */
 
 .carousel-card {
-    max-width: 250px;
+    width: 220px;
+    height: 300px;
 }
 
 .card-image {
@@ -412,7 +413,7 @@ div#map {
 
 .overlay {
     width: 100vw;
-    height: calc(100vh - 76px);
+    height: 100vh;
     background-color: rgba(0,0,0,0.5);
 }
 
