@@ -2,7 +2,7 @@
 
 ![Desktop Demo](https://github.com/Tmuat/milestone-project-2/blob/master/assets/media/images/ms2_mockup.gif "Desktop Demo")
 
-View live project [here](tmuat.github.io/milestone-project-2/).
+View live project [here](https://tmuat.github.io/Visit-Kingston/).
 
 ---
 ## Description
